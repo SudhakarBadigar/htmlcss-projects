@@ -1,0 +1,48 @@
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;  
+}
+
+.white{
+    background-color: white;
+}
+.red{
+    background-color: tomato;
+}
+.green{
+    background-color: lightgreen;
+}
+div{
+    display: flex;
+}
+body{
+    background-color: blueviolet;
+    max-width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(100px,fr));
+    padding: 20px;
+}
+body > div{
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 30px;
+}
+
+body > div > div {
+    display: flex;
+    flex-direction:column;
+    flex-grow: 1;
+    border-radius: 5px;
+    padding: 10px;
+}
+body > div  > div > div{
+    display: grid;
+    border-radius: 5px;
+    grid-gap: 10px;
+}
