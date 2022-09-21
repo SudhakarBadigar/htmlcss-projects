@@ -1,0 +1,16 @@
+.saffron{
+    background-color:#ffc926;
+    height: 250px;
+}
+.white{
+    background-color: #fffdfd;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+.green{
+    background-color: green;
+    height: 250px;
+}
