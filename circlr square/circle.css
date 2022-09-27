@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+
+.redcircle{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 240px ;
+    text-align: center;
+    text-decoration: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.greensquare{
+    bac
+}

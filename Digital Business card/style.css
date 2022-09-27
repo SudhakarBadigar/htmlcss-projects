@@ -1,0 +1,28 @@
+body{
+margin: 20px;    
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+background-image: url("./wolfgang-hasselmann-v5npU1Ghhvo-unsplash.jpg") ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+/*background-color: #bcb8b1;*/
+
+}
+
+.avatar{
+    width: 165px;
+    border-radius: 100%;
+ 
+}
+.card{
+    display: flex;    
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color:#ffd000;
+    border-bottom: 8px solid rgb(228, 105, 240);
+    border-radius: 4px;
+    color: rgb(34, 33, 33);
+}

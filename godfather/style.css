@@ -1,0 +1,23 @@
+@font-face {
+   src: url("./commercial-corleone/Corleone.ttf");
+   font-family: corleone;
+    
+}
+
+body{
+    background-image:url(./images/The-Godfather-Effect-Don-Vito-520.jpg);
+    background-repeat: no-repeat;
+    
+   
+  
+}
+.god{
+    font-family: corleone;
+    font-size: 25px;
+    color: bisque;
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
